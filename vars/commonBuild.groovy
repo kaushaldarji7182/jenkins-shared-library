@@ -6,7 +6,7 @@ def call() {
             stage('Checkout') {
                 steps {
                     echo "Checking out application source code..."
-                    git url: 'https://github.com/kaushaldarji7182/k8s-helloworld.git', branch: 'main'
+                    git url: 'https://github.com/kaushaldarji7182/k8s-helloworld.git', branch: 'master'
                 }
             }
 
